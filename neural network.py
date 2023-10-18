@@ -12,7 +12,7 @@ def feedforward(input_data, weights):
     output = relu(dot_product([node2, node3], weights[4]))
     return output
 
-# Sample input data and weights
+
 inp = [[-1, 2], [2, 2], [3, 3]]
 weights = [[3, 3], [1, 5], [3, 3], [1, 5], [2, -1]]
 
